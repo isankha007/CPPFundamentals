@@ -1,5 +1,5 @@
 all:prod
-CC = gcc -Wall
+CC = gcc -Wall -std=c99
 CPP = g++
 #CPPFLAGS= -I "include/" `mysql_config --cflags --libs`
 #LDFLAGS=`mysql_config --cflags --libs`
@@ -10,6 +10,8 @@ prod: CPP += -g3 -gdwarf-2 -g
 
 prod:	
 	$(CPP) MapTheclass.cpp -o cppDemo.bin
+debug:	
+	$(CC) LinkedList.c -o cDemo.bin	
 
 clean:
 	rm -rf *.bin *.core
