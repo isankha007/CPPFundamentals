@@ -29,8 +29,47 @@ void addNodeAtLast(node *head,int value){
 
 }
 void insertAtTheDbegining(node *head,int val){
+   node temp;
+   temp=createNode();
+   temp->data=val;
+   if(*head==NULL){
+	   *head=temp;
+   }else{
+	   temp->next=*head;
+	   *head=temp;
+   }
 
 }
+void deleteFromList(node *head,int val){
+	node p,temp;
+//	int counter;
+	p=*head;
+	temp=*head;
+	while(p!=NULL){
+		if(p->data==val){
+			if(p==*head){
+				temp=p;
+				*head=(*head)->next;
+				p=*head;
+				temp->next=NULL;
+				free(temp);
+				temp=NULL;
+			}
+			else{
+				temp->next=p->next;
+				p->next=NULL;
+				free(p);
+				p=NULL;
+			}
+		}else{
+			temp=p;
+			p=p->next;
+		}
+	}
+
+
+}
+
 void printList(node head){
 	node p=head;
 	printf("printList \n");
@@ -53,6 +92,22 @@ int main(){
     	printf("Data scanned \n");
     	addNodeAtLast(&root,val);
     }
+
+    for(i=0;i<n;i++){
+        	int val;
+        	printf("enter data for pos%d :",i);
+        	scanf("%d",&val);
+        	printf("Data scanned \n");
+        	insertAtTheDbegining(&root,val);
+        }
     printList(root);
+
+    printf("Enter value to delete\n");
+    int val;
+    scanf("%d",&val);
+    deleteFromList(&root,val);
+    printList(root);
+
+
 	return 0;
 }
