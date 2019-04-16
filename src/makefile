@@ -1,6 +1,7 @@
 all:prod
-CC = gcc -Wall -std=c99
-CPP = g++
+CC = gcc -Wall -std=c99 -lpthread
+CPP = g++ -Wall -lpthread -std=c++11
+
 #CPPFLAGS= -I "include/" `mysql_config --cflags --libs`
 #LDFLAGS=`mysql_config --cflags --libs`
 
@@ -9,9 +10,9 @@ debug: CC += -g3 -gdwarf-2 -g
 prod: CPP += -g3 -gdwarf-2 -g
 
 prod:	
-	$(CPP) MapTheclass.cpp -o cppDemo.bin
+	$(CPP) threadCPP.cpp -o cppDemo.bin
 debug:	
-	$(CC) DoublyLL.c -o cDemo.bin	
+	$(CC) ThreadOrThreat.c -o cDemo.bin	
 
 clean:
 	rm -rf *.bin *.core

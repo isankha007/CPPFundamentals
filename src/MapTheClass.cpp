@@ -43,6 +43,12 @@ int main(){
     	cout<<endl;
     }
 
+    int i=27;
+    int &j=i;
+
+    cout<<"i="<<i<<"j="<<j<<endl;
+    cout<<"i="<<&i<<"j="<<&j<<endl;
+
 //	people.insert(make_pair(65,Person("Naba",33)));
 //	for(map<int,Person>::iterator it=people.begin();it!=people.end();it++){
 //		it->second.print();
