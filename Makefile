@@ -15,10 +15,10 @@ all:	CPPFundamentals
 CPPFundamentals:	$(OBJS)
 	$(CXX) -o $@ $^
 
-%.o:	$(PROJECT_ROOT)%.cpp
+%.o:	$(PROJECT_ROOT)/src/DoublyLL.c
 	$(CXX) -c $(CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -o $@ $<
 
-%.o:	$(PROJECT_ROOT)%.c
+%.o:	$(PROJECT_ROOT)/src/DoublyLL.c
 	$(CC) -c $(CFLAGS) $(CPPFLAGS) -o $@ $<
 
 clean:

@@ -21,6 +21,14 @@ public:
 		f<<"from "<<id<<": "<<value<<endl;
 	//	mu.unlock();
 	}
+//	const Logfile &operator=(const Logfile&other){
+//         return *this;
+//	}
+
+	/*friend ostream &operator<<(ostream &out,const Logfile &test){
+		out<<"something "<<":"<<"abc";
+		return out;
+	}*/
 
 } ;
 
