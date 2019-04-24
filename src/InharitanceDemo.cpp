@@ -21,10 +21,24 @@ friend class Child;
 };
 
 class Parent{
+private :
+	int demoVar;
 public:
+	Parent():demoVar(0){
+
+	}
+
+	Parent(const Parent &other):demoVar(0){
+		demoVar=other.demoVar;
+		cout<<"Copy Parents"<<endl;
+	}
 	virtual void print(){
 		cout<<"Parent"<<endl;
 	}
+
+ virtual ~Parent(){
+
+ }
 };
 
 class Child:public Parent,public Student{ // @suppress("Class has a virtual method and non-virtual destructor")
