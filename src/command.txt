@@ -1,0 +1,500 @@
+git pull
+git push
+export PS1="\W \$"; clear;
+cd /Users/sankhadeepchatterjee/eclipse-workspace/CppTutorials/src/makefile
+cd /Users/sankhadeepchatterjee/eclipse-workspace/CppTutorials/src/
+ll
+make
+./cppDemo.bin
+make
+clear
+make
+clear
+make
+./cppDemo.bin
+make
+./cppDemo.bin
+clear
+make
+./cppDemo.bin
+make
+./cppDemo.bin
+./cppDemo.bin
+make
+make
+make
+make
+clear
+make
+./cppDemo.bin
+make
+make
+make
+./cppDemo.bin
+export PS1="\W \$"; clear;
+git clone https://github.com/fffaraz/awesome-cpp.git
+export PS1="\W \$"; clear;
+cd ..
+ll
+pwd
+cd ..
+ll
+git clone https://github.com/isankha007/CPPFundamentals.git
+cp CppTutorials/ CPPFundamentals/
+cp CppTutorials/*.* CPPFundamentals/
+cp -r CppTutorials/ CPPFundamentals/
+cd CppTutorials/
+ll
+cd src/
+ll
+cd ..
+cd ..
+cd CPPFundamentals/
+ll
+git branch -r
+git checkout -b development
+git branch
+git branch -r
+git checkout master
+git branch
+git add .
+git commit -m "Files Added"
+git pull
+git push
+git checkout development
+git add .
+git commit -m "Files added"
+git pull
+git push -u origin development
+git branch -r
+ll
+git pull
+git checkout master
+rm -rf .cproject .project .settings/language.settings.xml 
+git checkout master
+git pull
+ll
+git checkout developmwnt
+git checkout development
+git merge master
+ll
+git add .
+git commit -m "Files added"
+git pull
+git push
+git status
+git diff
+ll
+rm CPPFundamentals.cpp 
+git status
+git commit -m"removed unnecessary files"
+git push
+ll
+git commit -m "Files removed"
+git rm .cproject 
+git rm --cached .cproject 
+git commit -m "Files removed"
+git push
+ll
+git pull
+ll
+git pull
+git push
+git checkout master
+git status
+git add .cproject 
+git commit
+git commit -m"config added"
+git pull
+git push
+git checkout master
+git pull
+git staus
+git status
+git checkout development
+git pull
+git merge master
+gitk&
+fg
+bg
+git branch 
+git checkout README.md master
+git diff --name-status develoment..master
+git diff --name-status develoment master
+git diff --name-status master
+git checkout master README.md 
+git status
+git add README.md 
+git commit -m "ReadMe modified"
+git pull
+git branch
+git push
+git merge master
+cd src/
+ll
+vim makefile 
+make
+clear
+clear
+make
+make clean
+make
+makce
+make
+./cppDemo.bin
+make
+./cppDemo.bin
+make
+./cppDemo.bin
+git status
+git add MapTheClass.cpp  cppDemo.bin.dSYM/Contents/Resources/DWARF/cppDemo.bin 
+git commit -m "Modified"
+git pull
+git push
+clear
+make
+make
+clear
+make
+make
+make
+clear
+clear
+clear
+clear
+make
+./cppDemo.bin
+make
+./cppDemo.bin
+export PS1="\W \$"; clear;
+/Volumes/CENTOS\ 7\ X8/CentOS_BuildTag ; exit;
+export PS1="\W \$"; clear;
+cd src/
+cd eclipse-workspace/CPPFundamentals/src/
+git status
+git add MapTheClass.cpp makefile LinkedList.c LinkedList.h
+git commit -m "C files added"
+git pull
+git push
+make debug
+make debug
+gdb cDemo.bin
+lipo -thin x86_64 -output app-x86_64 ./app
+lipo -thin i386 -output app-i386 ./app
+lipo -thin i386 -output app-i386 ./app
+gdb --args ./RelayD start --daemon
+gdb --args ./RelayD start --daemon
+gdb ./RelayD
+run start --daemon
+otool -l test.o
+brew gdb
+brew gdb*
+brew gdb-8.0.1
+./cDemo.bin
+brew install gdb
+brew upgrade gdb
+gdb cDemo.bin
+make debug
+make
+make clean
+make debug
+./cDemo.bin
+git status
+git add LinkedList.c
+git commit -m "Delete added"
+git pull
+git push
+reset
+make debug
+make debug
+./cDemo.bin
+exit
+export PS1="\W \$"; clear;
+cd eclipse-workspace/CPPFundamentals/src/
+make clean
+make debug
+./cDemo.bin
+make clean
+make debug
+./cDemo.bin
+make clean
+make
+make clean
+make debug
+./cDemo.bin
+make debug
+./cDemo.bin
+make debug
+./cDemo.bin
+make clean
+make debug
+./cDemo.bin
+make debug
+make debug
+./cDemo.bin
+clear
+make clean
+make debug
+./cDemo.bin
+./cDemo.bin
+make clean
+make debug
+./cDemo.bin
+./cDemo.bin
+git staus
+git status
+git add makefile DoublyLL.c 
+git commit -m "Doubly LL added"
+git pull
+git push
+export PS1="\W \$"; clear;
+cd eclipse-workspace/CPPFundamentals/src/
+ll
+make clean
+make
+ulimit -c
+ulimit -a
+ulimit -c unlimited
+ulimit -a
+./cppDemo.bin
+gdb ./cppDemo.bin
+gdb cppDemo.bin
+sudo gdb cppDemo.bin
+s
+sudo gdb cppDemo.bin
+export PS1="\W \$"; clear;
+cd eclipse-workspace/CPPFundamentals/src
+codesign -s gdb_codesign `which gdb`
+sudo security add-trust -d -r trustRoot -p basic -p codeSign -k /Library/Keychains/System.keychain ~/Desktop/lldb_codesign.cer
+sudo security add-trust -d -r trustRoot -p basic -p codeSign -k /Library/Keychains/System.keychain ~/Desktop/lldb_codesign.cer
+sudo security add-trust -d -r trustRoot -p basic -p codeSign -k /Library/Keychains/System.keychain ~/Desktop/lldb_codesign.cer
+reboot
+sudo reboot
+export PS1="\W \$"; clear;
+gdb cppDemo.bin
+sudo gdb cppDemo.bin
+export PS1="\W \$"; clear;
+sudo vim /System/Library/LaunchDaemons/com.apple.taskgated.plist
+sudo nano /System/Library/LaunchDaemons/com.apple.taskgated.plist
+sudo gdb cppDemo.bin
+export PS1="\W \$"; clear;
+cd eclipse-workspace/CPPFundamentals/src
+sudo gdb cppDemo.bin
+sudo gdb cppDemo.bin
+cd ~/Desktop/Development/C-projects/
+ll
+vim treeDemo.c
+gcc treeDemo.c -g -o tree
+gdb tree
+sudo gdb tree
+export PS1="\W \$"; clear;
+cd ~/Desktop/Development/C-projects/
+gcc treeDemo.c -o tree
+./tree
+codesign -fs gdbcert /usr/local/bin/gdb to codesign --entitlements gdb.xml -fs gdbcert /usr/local/bin/gdb
+codesign -vvvv  gdb
+gdb tree
+sudo gdb tree
+export PS1="\W \$"; clear;
+gdb ./tree
+sudo gdb ./tree
+sudo gdb ./tree
+s
+sudo gdb ./tree
+gcc -g treeDemo.c -o tree
+sudo gdb ./tree
+export PS1="\W \$"; clear;
+cd ~/Desktop/Development/C-projects/
+gdb tree
+sudo gdb tree
+gdb tree
+killall taskgated
+sudo killall taskgated
+codesign -fs gdbc /usr/local/bin/gdb
+gdb tree
+sudo killall taskgated
+codesign -fs gdbc /usr/local/bin/gdb
+gdb tree
+export PS1="\W \$"; clear;
+cd ~/Desktop/Development/C-projects/
+gdb tree
+export PS1="\W \$"; clear;
+brew update gdb
+sudo brew upgrade gdb
+brew upgrade gdb
+vim HelloWorld
+vim HelloWorld.c
+gcc HelloWorld.c -g -o hl
+gdb hl
+vim HelloWorld.c
+gcc HelloWorld.c -g -o hl
+sudo gdb hl
+export PS1="\W \$"; clear;
+export PS1="\W \$"; clear;
+/Users/sankhadeepchatterjee/Library/Developer/Xcode/DerivedData/CDemo-fyvbqqlopehyuraxnjwfatkomiwc/Build/Products/Debug/CDemo ; exit;
+export PS1="\W \$"; clear;
+brew uninstall --force gdb
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/c3128a5c335bd2fa75ffba9d721e9910134e4644/Formula/gdb.rb
+brew install gdb
+brew cleanup
+brew install gdb
+brew update
+brew upgrade gdb
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+brew install gdb
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install gdd
+
+cd ~/Desktop/Development/C-proje
+gdb tree
+codesign -fs gdbc /usr/local/bin/gdb
+gdb tree
+gdb --version
+vim ~/.gdbinit
+sudo gdb tree
+gdb 
+ll
+export PS1="\W \$"; clear;
+sudo gdb ./tree
+export PS1="\W \$"; clear;
+r --version
+R --version
+r
+cd..
+cd ..
+ll
+clear
+ll
+cd -
+cd --
+cd Desktop/Development/GITHUB/
+ll
+mkdir dummyProject
+cd dummyProject/
+ll
+git init
+ll
+git status
+touch README.md
+git add README.md 
+git commit -m "First commit"
+git remote add origin git@github.com:dummyProject.git
+git remote add origin git@github.com:isankha007/dummyProject.git
+git push -u origin master
+git remote add origin git@github.com:isankha007/dummyProject.git
+git remote add origin git@github.com:dummyProject.git
+git push -u origin master
+git remote add origin https://github.com/isankha007/dummyProject.git
+git push -u origin master
+git push -u origin master
+cd ..
+ll
+ rm -rf dummyProject/
+ll
+screen -ls
+screen -S sankha
+screen -m sankha
+screen -xr sankha
+screen  sankha -k
+screen  -k sankha 
+screen sankha quit
+screen  -ls
+screen -xr sankha quit
+screen -X sankha quit
+screen  -ls
+screen -xr sankha 
+export PS1="\W \$"; clear;
+screen -ls
+exit
+export PS1="\W \$"; clear;
+systemctl mysql start
+systemctl 
+export PS1="\W \$"; clear;
+cd /Users/sankhadeepchatterjee/eclipse-workspace/CPPFundamentals/src/InharitanceDemo.cpp
+cd /Users/sankhadeepchatterjee/eclipse-workspace/CPPFundamentals/src/
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDe
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+clear
+g++ InharitanceDemo.cpp -o inDemo
+clear
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+clear
+g++ InharitanceDemo.cpp -o inDemo
+clear
+g++ InharitanceDemo.cpp -o inDemo
+clear
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+clear
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+git status
+git add InharitanceDemo.cpp 
+git add -a
+git add -A
+git status
+git commit -m"Inharitance added"
+git branch
+git push
+git pull
+git checkout master
+git pull
+git merge development
+ll
+ll -a
+rm .DS_Store 
+git merge development
+git status
+git add -A
+git status
+git push
+git checkout developmet
+git checkout development
+git branch -r
+git branch 
+git status
+g++ InharitanceDemo.cpp -o inDemo
+g++ InharitanceDemo.cpp -o inDemo
+./inDemo 
+gti status
+git status
+git add .
+git status
+git commit -m"Minor modification done"
+git pull
+git push
+gdb ./inDemo 
+sudo gdb ./inDemo 
