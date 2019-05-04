@@ -5,6 +5,8 @@ using namespace sankha;
 
 int main(){
     Complex c1(2,3);
-    cout<<c1.getReal()<<" + i"<<c1.getImg()<<endl;
+    Complex c2=c1;
+//    cout<<c2.getReal()<<" + i"<<c2.getImg()<<endl;
+//    cout<<c1;
 	return 0;
 }

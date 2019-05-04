@@ -3,6 +3,31 @@
 #include<vector>
 #include <map>
 using namespace std;
+//source Singletone
+//https://www.tutorialspoint.com/Explain-Cplusplus-Singleton-design-pattern
+class Singleton{
+	 static Singleton *instance;
+	 int data;
+	 Singleton():data(0){}
+public:
+	 static Singleton *getinstance(){
+		 if(!instance)
+			 instance =new Singleton;
+		 return instance;
+	 }
+	 int getData(){
+		 return this->data;
+	 }
+	 void setData(int val){
+		 this->data=val;
+	 }
+public:
+        Singleton(Singleton const&)               = delete;
+        void operator=(Singleton const&)  = delete;
+};
+
+Singleton *Singleton::instance=NULL; //0;
+
 //https://stackoverflow.com/questions/5607589/right-way-to-split-an-stdstring-into-a-vectorstring
 vector<string> split(string str,string token){
 	vector<string>finalStr;
@@ -65,6 +90,23 @@ int main()
    for(map<int,pair<int,string> >::iterator it=mp.begin();it!=mp.end();it++){
 	   cout<<it->second.second<<endl;
    }
+
+
+   Singleton *s=s->getinstance();
+   s->setData(120);
+   cout<<s->getData()<<endl;
+   string str1 = "sankhadeep chatterjee";
+   string str2 = "soumyadeep chatterjee";//"soumyadeep chatterjee";
+  if(str1.compare(str2)<0){
+	  cout<<str1<<" Smaller than "<< str2<<endl;
+  }else if(str1.compare(str2)==0){
+	  cout<<str1<<" and "<< str2<<" are same"<<endl;
+  }else{
+	  cout<<str1<<" greater than "<< str2<<endl;
+  }
+
+//   Singleton n(Singleton &s);
+//   cout<<" ........ "<<n.<<endl;
 
     return 0;
 }
