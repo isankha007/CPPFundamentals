@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
+#include "SystemHeader.h"
 
 struct demo{
 	char *name;
@@ -54,8 +54,10 @@ n3.name = strdup(n1.name); // Deep copy -
 //memcpy(n3.name,n1.name,strlen(n1.name));
 n3.data=n1.data;
 printf("n1=%s ,n3=%s \n",n1.name,n3.name);
-
-
+int h=5;
+int k=0;
+printMax(h,k);
+printf(".....MAX ... %d\n",k);
 
 return 0;
 }
