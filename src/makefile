@@ -14,7 +14,7 @@ prod:
 #	$(CPP) Template.cpp Complex.cpp  -o cppDemo.bin
 	$(CPP) threadCPP2.cpp -o cppDemo.bin
 debug:	
-	$(CC) PointerCheck.c -o cDemo.bin	
+	$(CC) ExtractIP.c -o cDemo.bin	
 
 clean:
 	rm -rf *.bin *.core
