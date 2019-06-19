@@ -2,6 +2,8 @@
 #include<sstream>
 #include <string>
 using namespace std;
+
+//This file is example to bypass invalid input for cin and to prevent the infinite loop
 int main(void) {
 //	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	while(1){
