@@ -22,10 +22,16 @@ int main(void) {
 ////			cin.ignore();
 //	       }
 //	       cin.ignore();
-			fflush(stdin);
-			getline(cin, str1);
-			cin.ignore();
-			fflush(stdin);
+//			fflush(stdin);
+//			getline(cin, str1);
+//			cin.ignore();
+//			fflush(stdin);
+	    //getline(cin,str1);
+	   cin>>str1;
+	    while(getchar()!='\n'){
+
+	    }
+	    cout<<"String 1"<<str1<<endl;
 		break;
 	}
 	case 2:
@@ -34,6 +40,11 @@ int main(void) {
 //			printf("Enter command input\n");
 //			scanf("%s",str2);
 //			printf("%s\n",returnValue(n, str2));
+		 string str2;
+//		 getline(cin,str2);
+		 cin>>str2;
+		 while(getchar()!='\n'){}
+		 cout<<"String 2"<<str2<<endl;
 		break;
 	}
 	case 3:
