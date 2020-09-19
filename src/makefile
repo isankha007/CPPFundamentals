@@ -12,7 +12,8 @@ prod: CPP += -g3 -gdwarf-2 -g
 prod:	
 #	$(CPP) ComplexClassDemo.cpp Complex.cpp -o cppDemo.bin
 #	$(CPP) Template.cpp Complex.cpp  -o cppDemo.bin
-	$(CPP) threadCPP2.cpp -o cppDemo.bin
+#	$(CPP) threadCPP2.cpp -o cppDemo.bin
+	$(CPP) MaxSumTriangle.cc -o cppDemoRoFF.bin
 debug:	
 	$(CC) ExtractIP.c -o cDemo.bin	
 
